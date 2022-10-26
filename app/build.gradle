@@ -3,13 +3,11 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'war'
 }
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    // This dependency is used by the application.
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'javax.servlet:jstl:1.2'
